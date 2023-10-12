@@ -1,1 +1,3 @@
-FROM gabrielpcruz/php:7.4
+FROM gabrielpcruz/php:8.2
+
+RUN apt update -y && apt install cron
